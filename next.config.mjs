@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    path: "/public/images",
+  },
+};
 
 export default nextConfig;
